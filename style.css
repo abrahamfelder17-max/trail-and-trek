@@ -75,3 +75,117 @@ nav a {
     border-radius: 8px;
 }
 
+#trails {
+    padding: 60px 10% 80px;
+    text-align: center;
+}
+
+#trails h2 {
+    margin: 0 0 40px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.trail-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 160px;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    color: #6b7280;
+}
+
+.image-placeholder {
+    overflow: hidden;
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card p {
+    margin: 10px 0 0;
+    font-size: 18px;
+    color: #4b5563;
+}
+
+.quote-section {
+    padding: 80px 15%;
+    background-color: #e5e7eb;
+}
+
+.quote-section blockquote {
+    margin: 0;
+}
+
+.quote-section blockquote p {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    margin: 16px 0 0;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin: 80px 10%;
+    padding: 40px 60px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.signup-section h2 {
+    margin: 0 0 8px;
+    font-size: 24px;
+}
+
+.signup-section p {
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.signup-section button {
+    padding: 8px 28px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    padding: 30px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
